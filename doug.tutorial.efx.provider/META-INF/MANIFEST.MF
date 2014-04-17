@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Provider
+Bundle-SymbolicName: doug.tutorial.efx.provider;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: doug.tutorial.efx.provider.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ doug.tutorial.efx
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy

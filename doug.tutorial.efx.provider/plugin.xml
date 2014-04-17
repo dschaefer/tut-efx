@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="doug.tutorial.efx.buttonProvider">
+      <provider
+            class="doug.tutorial.efx.provider.MyButtonProvider">
+      </provider>
+   </extension>
+
+</plugin>
