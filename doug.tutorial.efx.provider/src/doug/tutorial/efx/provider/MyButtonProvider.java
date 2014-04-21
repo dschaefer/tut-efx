@@ -14,11 +14,11 @@ public class MyButtonProvider implements IButtonProvider {
 	@Override
 	public Button createButton() {
 		Button btn = new Button();
-		btn.setText("Say 'Hello World ext'");
+		btn.setText("Say 'Hello World'");
 		btn.setOnAction(new EventHandler<ActionEvent>() {
 			@Override
 			public void handle(ActionEvent event) {
-				System.out.println("Hello World ext!");
+				System.out.println("Hello World from an Eclipse Extension!");
 			}
 		});
 
